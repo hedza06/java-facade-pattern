@@ -1,5 +1,8 @@
 package subsystem;
 
+/**
+ * Lights definition.
+ */
 public class Lights {
 
     public void off() {

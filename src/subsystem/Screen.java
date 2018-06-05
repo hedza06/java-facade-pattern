@@ -1,5 +1,8 @@
 package subsystem;
 
+/**
+ * Screen definition.
+ */
 public class Screen {
 
     public void down() {

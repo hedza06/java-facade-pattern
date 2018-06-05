@@ -1,5 +1,8 @@
 package subsystem;
 
+/**
+ * Amplifier definition.
+ */
 public class Amplifier {
 
     public void on() {

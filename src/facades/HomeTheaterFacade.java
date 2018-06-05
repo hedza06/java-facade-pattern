@@ -7,7 +7,9 @@ import subsystem.*;
  */
 public class HomeTheaterFacade {
 
-    // dependency components...
+    /**
+     * Dependencies...
+     */
     private Lights lights = new Lights();
     private Amplifier amplifier = new Amplifier();
     private DvdPlayer dvdPlayer = new DvdPlayer();
@@ -17,9 +19,9 @@ public class HomeTheaterFacade {
 
 
     /**
+     * Simplified method for watching movies
      *
-     *
-     * @param movie
+     * @param movie - provided movie name
      */
     public void watchMovie(String movie)
     {
@@ -39,7 +41,7 @@ public class HomeTheaterFacade {
     }
 
     /**
-     *
+     * Simplified method for stopping movie.
      */
     public void stopMovie()
     {

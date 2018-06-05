@@ -1,5 +1,8 @@
 package subsystem;
 
+/**
+ * Projector definition.
+ */
 public class Projector {
 
     public void on() {

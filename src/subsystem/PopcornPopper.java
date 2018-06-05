@@ -1,5 +1,8 @@
 package subsystem;
 
+/**
+ * Popcorn definition.
+ */
 public class PopcornPopper {
 
     public void on() {
